@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+	<title>Store Front-End</title>
+	<link rel="stylesheet" href="./css/normalize.css">
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+	<header class="header">
+		<a href="index.html">
+			<img class="header__logo" src="./img/logo.png" alt="Front-End store">
+		</a>
+	</header>
+
+	<nav class="navegacion">
+		<a class="navegacion__enlace  navegacion__enlace--activo" href="index.html">Tienda</a>
+		<a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+	</nav>
+
+	<main class="container">
+		<h1>React JS</h1>
+
+		<div class="camisa">
+
+			<img class="camisa__img" src="./img/4.jpg" alt="">
+			<div class="camisa__content">
+				<p>
+					Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+					Repellendus, et provident aspernatur fuga, blanditiis aut 
+					in nam voluptate quaerat laborum saepe numquam atque ut? 
+					Possimus hic ducimus necessitatibus ab ullam?
+				</p>
+				<form class="form">
+					<select class="form__camp" >
+						<option disabled selected > Selected Talla </option>
+						<option class="form__opcion">small  </option>
+						<option class="form__opcion">medium  </option>
+						<option class="form__opcion">Big </option>
+					</select>
+					<input class="form__camp" type="number" min="1" value="1" placeholder="Cantidad">
+					<input class="form__submit" type="submit" value="Add car" >
+				</form>
+			</div>
+		</div> <!--.camisa-->
+
+	</main>
+
+	<footer class="footer">
+		<p class="footer__texto">Front-End Store - Todos los derechos reservados &copy;</p>
+	</footer>
+
+
+</body>
+
+</html>
