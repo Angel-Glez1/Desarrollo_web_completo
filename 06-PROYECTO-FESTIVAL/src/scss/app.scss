@@ -1,0 +1,14 @@
+
+@import 'base/normalize';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap');
+@import 'base/varibles';
+@import 'base/mixin';
+@import 'base/globales';
+@import 'base/tools';
+
+@import 'layouts/header';
+@import 'layouts/video';
+@import 'layouts/festival';
+@import 'layouts/lineUp';
+@import 'layouts/galeria';
+@import 'layouts/boletos';
